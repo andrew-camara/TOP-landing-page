@@ -1,19 +1,25 @@
 * {
     box-sizing: border-box;
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
-nav {
+header {
     display: flex;
     background-color: #1F2937;
 }
-
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
 .hero-logo {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: left;
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 150px;
 }
 
 .hero-link-container {
@@ -27,4 +33,43 @@ nav {
 .hero-link {
     margin: 0 20px;
     align-content: center;
+}
+#sect-1-container {
+    padding: 75px 0;
+    justify-content: center;
+    display: flex;
+    background-color: #1F2937;
+}
+#sect-1-text {
+    justify-content: center;
+    text-align: left;
+    margin-left: 150px;
+    padding-right: 25px;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#sect-1-image-container {
+    flex: 1;
+    margin-right: 150px;
+}
+#sect-1-image {
+    background-color: grey;
+    padding: 75px 0;
+    text-align: center;
+    justify-content: center;
+    color:#e5e7eb;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-color: #3882f6;
+    font-size: 18px;
+    border: 0;
 }
