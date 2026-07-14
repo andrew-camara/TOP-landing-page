@@ -73,3 +73,40 @@ button {
     font-size: 18px;
     border: 0;
 }
+#sect-2-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sect-2-image-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+
+}
+#sect-2-heading {
+    display: flex;
+    justify-content: center;
+}
+.image-container {
+    width: 125px;
+    margin: 0 15px;
+}
+.image-container img {
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.image-caption {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+#sect-2-heading h1 {
+    color: #1F2937;
+    font-size: 36px;
+    padding: 25px 0;
+}

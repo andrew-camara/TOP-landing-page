@@ -28,13 +28,26 @@
             <div id = "sect-1-image">This is a placeholder for an image</div>
         </div>
     </div>
-    <div>Section 2
-        <div>Some random information</div>
-        <div>div for holding images
-            <div>image + desc 1</div>
-            <div>image + desc 2</div>
-            <div>image + desc 3</div>
-            <div>image + desc 4</div>
+    <div id = "sect-2-container">
+        <div id = "sect-2-heading">
+            <h1>Some random information.</h1></div>
+        <div id = "sect-2-image-container">
+            <div class = "image-container">
+                <img src="dog1.jpg" alt = "furry friend">
+                <p class = "image-caption"></p>
+            </div>
+            <div class = "image-container">
+                <img src = "dog2.jpg" alt = "a silly pupper">
+                <p class = "image-caption"></p>
+            </div>
+            <div class = "image-container">
+                <img src="dog3.jpg" alt = "a cute doggo">
+                <p class = "image-caption"></p>
+            </div>
+            <div class = "image-container">
+                <img src = "dog4.jpg" alt = "a snappy surprise">
+                <p class = "image-caption"></p>
+            </div>
         </div>
     </div>
     <div>Section 3
@@ -49,5 +62,11 @@
             <div>Call to action button</div>
         </div>
     </div>
+    <script>
+    const image_caption = document.querySelectorAll(".image-caption")
+    image_caption.forEach((caption) => {
+        caption.innerHTML = "This is some subtext under an illustration or image"
+    })
+    </script>
 </body>
 </html>
